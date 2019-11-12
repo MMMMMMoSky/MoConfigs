@@ -1,0 +1,26 @@
+syntax on               " 打开语法高亮
+set nocompatible        " 不与 Vi 兼容
+set number              " 显示行号
+set showcmd             " 显示当前键入的命令, 例如 2yy (完成后会消失)
+set mouse=a             " 支持使用鼠标
+set encoding=utf-8      " 使用 utf-8 编码
+
+set autoindent          " 自动缩进
+set cindent             " C风格缩进
+set smartindent         " 智能缩进
+set tabstop=4           " tab 长度
+set shiftwidth=4        " >>/<< 命令缩进宽度
+set expandtab           " 使用软tab
+set softtabstop=4       " 软tab宽度
+set scrolloff=5         " 垂直滚动时, 光标与边界的距离
+set ruler               " 状态栏显示光标位置
+set incsearch           " 输入时即搜索
+set hlsearch            " 搜索结果高亮
+set nobackup            " 不创建备份文件
+set noswapfile          " 不创建交换文件
+
+set noerrorbells        " 出错时不发出声音
+set visualbell          " 出错时视觉提示
+set autoread            " 打开文件监视, 如果编辑过程中文件外部改变, 发出提示
+
+set backspace=2         " 解决 macOS 退格键无法使用
